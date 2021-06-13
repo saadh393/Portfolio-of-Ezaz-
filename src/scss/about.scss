@@ -1,6 +1,5 @@
 .about {
   height: 100vh;
-  width: 100vw;
   .logo-about {
     height: 350px;
     width: auto;
@@ -37,7 +36,8 @@
       width: 470px;
       height: 230px;
 
-      h1,p{
+      h1,
+      p {
         padding-left: 25px;
       }
 
@@ -74,12 +74,12 @@
       h1 {
         top: 35px;
         font-size: 32px;
-        padding-left:0;
+        padding-left: 0;
       }
       p {
         top: 50px;
         font-size: 15px;
-        padding-left:0;
+        padding-left: 0;
         left: 50%;
         width: 90%;
         transform: translateX(-50%);

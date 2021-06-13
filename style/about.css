@@ -1,0 +1,150 @@
+.about {
+  height: 100vh;
+}
+.about .logo-about {
+  height: 350px;
+  width: auto;
+  border-radius: 50%;
+  position: absolute;
+  left: 130px;
+  top: 840px;
+}
+.about .about-box {
+  position: absolute;
+  top: 870px;
+  right: 150px;
+}
+@media screen and (max-width: 1250px) {
+  .about .about-box {
+    right: 70px;
+  }
+  .about .logo-about {
+    left: 70px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .about .about-box {
+    right: 35px;
+  }
+  .about .logo-about {
+    left: 35px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .about .about-box {
+    width: 470px;
+    height: 230px;
+  }
+  .about .about-box h1,
+  .about .about-box p {
+    padding-left: 25px;
+  }
+  .about .about-box h1 {
+    top: 45px;
+    font-size: 32px;
+  }
+  .about .about-box p {
+    top: 65px;
+    font-size: 15px;
+    width: 90%;
+  }
+  .about .logo-about {
+    left: 35px;
+    height: 285px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .about .logo-about {
+    height: 200px;
+    top: 770px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+  .about .about-box {
+    height: 230px;
+    width: 420px;
+    right: 50%;
+    top: 1020px;
+    -webkit-transform: translate(50%);
+    transform: translate(50%);
+    text-align: center;
+  }
+  .about .about-box h1 {
+    top: 35px;
+    font-size: 32px;
+    padding-left: 0;
+  }
+  .about .about-box p {
+    top: 50px;
+    font-size: 15px;
+    padding-left: 0;
+    left: 50%;
+    width: 90%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 500px) {
+  .about .logo-about {
+    height: 160px;
+  }
+  .about .about-box {
+    height: 170px;
+    width: 340px;
+    top: 1000px;
+  }
+  .about .about-box h1 {
+    top: 30px;
+    font-size: 23px;
+  }
+  .about .about-box p {
+    top: 35px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .about .logo-about {
+    height: 120px;
+  }
+  .about .about-box {
+    height: 170px;
+    width: 230px;
+    top: 970px;
+  }
+  .about .about-box h1 {
+    top: 15px;
+    font-size: 19px;
+  }
+  .about .about-box p {
+    top: 25px;
+    font-size: 11.3px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .about .logo-about {
+    height: 110px;
+  }
+  .about .about-box {
+    height: 170px;
+    width: 200px;
+    top: 950px;
+  }
+}
+@media screen and (max-width: 230px) {
+  .about .logo-about {
+    height: 90px;
+  }
+  .about .about-box {
+    width: 170px;
+    top: 920px;
+  }
+  .about .about-box h1 {
+    top: 20px;
+    font-size: 14px;
+  }
+  .about .about-box p {
+    top: 30px;
+    font-size: 9.5px;
+  }
+}

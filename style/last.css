@@ -1,0 +1,39 @@
+.last {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.last p {
+  color: #71ff7f;
+  font-size: 160px;
+}
+@media screen and (max-width: 750px) {
+  .last p {
+    font-size: 130px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .last p {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .last p {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .last p {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .last p {
+    font-size: 30px;
+  }
+}
